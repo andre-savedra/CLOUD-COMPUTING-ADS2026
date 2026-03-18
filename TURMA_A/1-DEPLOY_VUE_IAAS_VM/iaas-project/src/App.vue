@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Demo IAAS" />
 
-      <img src="https://pbs.twimg.com/media/G96bD84WAAAqVVW.jpg">
+      <img src="https://ichef.bbci.co.uk/images/ic/512xn/p09j7x4c.jpg.webp">
 
       <nav>
         <RouterLink to="/">Home</RouterLink>

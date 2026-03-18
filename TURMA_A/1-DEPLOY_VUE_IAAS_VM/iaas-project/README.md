@@ -43,7 +43,24 @@ sudo apt-get install nginx
 ```
 
 
-## 8 - mover a pasta dist para a vm (comando dentro da dist): 
+## 8 - clonar o projeto dentro da sua vm (pode ser apenas o dist): 
 ```bash
-scp -r dist/* andre-savedra@20.127.113.182:/tmp/
+git clone URL_DO_REPO
+```
+
+## 9 - copiar a pasta dist para a pasta do nginx: 
+```bash
+sudo mv ./CAMINHO_DA_SUA_DIST/dist/* /var/www/html/
+```
+
+
+## 10 - dar restart no servidor nginx: 
+```bash
+sudo systemctl restart nginx
+```
+
+
+## 11 - 👏 acesse o IP público e seu deploy está pronto!
+```bash
+20.127.113.182
 ```
